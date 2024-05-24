@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">onboarding</string>
+    <string name="onboarding_image_description">A minimalistic landscape</string>
 </resources>
