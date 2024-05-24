@@ -22,3 +22,7 @@ dependencyResolutionManagement {
 rootProject.name = "ZenRain"
 include(":app")
 include(":auth")
+include(":onboarding")
+include(":home")
+include(":player")
+include(":billing")
