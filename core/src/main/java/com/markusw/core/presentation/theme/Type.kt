@@ -1,6 +1,6 @@
 @file:Suppress("SpellCheckingInspection")
 
-package com.markusw.zenrain.ui.theme
+package com.markusw.core.presentation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
@@ -8,7 +8,7 @@ import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import com.markusw.zenrain.R
+import com.markusw.core.R
 
 
 val kadwa = FontFamily(
@@ -27,21 +27,21 @@ val Typography = Typography(
     titleLarge = TextStyle(
         fontFamily = kadwa,
         fontWeight = FontWeight.Bold,
-        fontSize = 20.sp,
+        fontSize = 32.sp,
         lineHeight = 28.sp,
         letterSpacing = 0.15.sp
     ),
     titleMedium = TextStyle(
         fontFamily = kadwa,
         fontWeight = FontWeight.Bold,
-        fontSize = 16.sp,
+        fontSize = 30.sp,
         lineHeight = 24.sp,
         letterSpacing = 0.15.sp
     ),
     titleSmall = TextStyle(
         fontFamily = kadwa,
         fontWeight = FontWeight.Bold,
-        fontSize = 14.sp,
+        fontSize = 28.sp,
         lineHeight = 20.sp,
         letterSpacing = 0.15.sp
     )

@@ -1,4 +1,4 @@
-package com.markusw.zenrain.ui.theme
+package com.markusw.core.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
